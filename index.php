@@ -3,7 +3,7 @@
 /*
    +-----------------+------------------------------------------------------------+
    |  Script         | PHProxy based on Abdullah Arifs Code                       |
-   |  Author         | Abdullah Arif                                              |
+   |  Author         | Frank Lemanschik                                          |
    |  Last Modified  | 5:27 PM 02/09/2014                                         |
    +-----------------+------------------------------------------------------------+
    |  This program is free software; you can redistribute it and/or               |
