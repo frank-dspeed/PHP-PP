@@ -1,4 +1,4 @@
-PHProxy Source Code README
+PHP-PP Source Code README
 _____________________________________________________________________
 
 Source Code Version 0.5b2 - January 20th 2007
@@ -26,7 +26,7 @@ Table of Contents
 _____________________________________________________________________
 
 1. License
-2. What is PHProxy?
+2. What is PHP-PP?
 3. How it Works
 4. Requirements
 5. Installation
@@ -46,21 +46,15 @@ A copy of the license in provided in this package in the file
  named LICENSE.txt
 
 
-2. What is PHProxy?
+2. What is PHP-PP?
 _____________________________________________________________________
 
 
-PHProxy is a web HTTP proxy 
+PHP-PP is a web HTTP proxy 
 designed to bypass proxy restrictions through
-a web interface very similar to the popular CGIProxy 
-(http://www.jmarshall.com/tools/cgiproxy/). For example, in my 
-university, the IT department blocks a lot of harmless websites 
-simply because of their popularity. So I use this porgram to access 
-those websites. The only thing that PHProxy needs is a web server 
-with PHP installed (see Requirements below).
-Be aware though, that the sever has to be able to access those 
-resources to deliver them to you.
-
+a web interface very similar to the popular CGIProxy
+(http://www.jmarshall.com/tools/cgiproxy/). 
+and implament Web Walker Limiteds Content Injection
 
 
 3. How it Works
@@ -93,7 +87,7 @@ Simply upload these files to a directory of your liking (prefrebly in its own di
 - index.inc.php
 - style.css
 
-You can rename index.php without any problems, but not index.inc.php.
+You can rename index.php without any problems, but not php-pp.inc.php.
 
 A good idea is to change these PHP settings in your php.ini file
 or for instance Apache's httpd.conf or per directory .htaccess files:
