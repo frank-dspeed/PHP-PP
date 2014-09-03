@@ -1,0 +1,135 @@
+body, input
+{
+    font-family: "Bitstream Vera Sans", Arial, Helvetica, sans-serif;
+    color: #95F200;
+}
+
+a
+{
+    color: #9B9C83;
+    text-decoration:none;
+}
+
+a:hover 
+{
+    color: #0080FF;
+}
+
+#container
+{
+    -moz-border-radius: 8px;
+    margin: auto;
+    padding: 5px;
+    width: 700px;
+}
+
+#title
+{
+    color: #333333;
+    margin: 0;
+}
+
+ul#navigation, ul#form
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul#navigation
+{
+    float: right;
+}
+
+ul#form
+{
+    clear: both;
+}
+
+ul#navigation li
+{
+    float: left;
+    margin: 0;
+    padding: 5px 0;
+}
+
+ul#navigation li a
+{
+    font-weight:
+    color: #95F200;
+    background-color: #333333;
+    padding: 5px 15px;
+    margin-left: 1px;
+    text-decoration: none;
+}
+
+ul#navigation li  a:hover
+{
+    color: #333333;
+}
+
+ul#form li
+{
+    width: 700px;
+}
+
+#footer
+{
+    color: #95F200;
+    font-size: small;
+    text-align: right;
+}
+
+#address_bar
+{
+    background-color: #333333;
+    text-align: center;
+    padding: 5px 0;
+    color: #95F200;
+}
+
+#go
+{
+    background-color: #333333;
+    font-weight: bold;
+    color: #95F200;
+    border: 0 #ffffff solid;
+    padding: 2px 5px;
+}
+
+#address_box
+{
+    width: 500px;
+}
+
+.option
+{
+    padding: 2px 0;
+    background-color: #333333;
+}
+
+.option label
+{
+}
+
+form
+{
+    margin: 0;
+}
+
+#error, #auth
+{
+    background-color: #333333;
+    width: 700px;
+    clear: both;
+}
+
+#auth
+{
+    background-color: #000000;
+}
+
+#error p, #auth p, #auth form
+{
+    margin: 5px;
+}
