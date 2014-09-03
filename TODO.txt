@@ -1,3 +1,5 @@
+- improve content inserting
+- implament cb backend
 - Cookie managment
 - JavaScript support
 - Support for external proxies
@@ -14,4 +16,3 @@
 - Look into proxification of XML files
 - Support for multiple languages
 - IDN support
-- FTP support
